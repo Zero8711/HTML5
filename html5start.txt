@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>HTML 요소</title>
+	</head>
+	<body>
+		<h2>HTML 시작하기</h2>
+		<p>요소로 구성</p>
+		<p>[시작태그] 문서의 내용 [종료 태그]</p>
+		<br>내용없는 요소는 단톡태그로</p>
+	</body>
+</html>
