@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Center Alignment</title>
+        <style>
+	.box-center {
+	    margin : auto;
+	    width : 50%;
+	    border : 3px solid green;
+	    padding : 10px;
+	    text-align : center;
+	}
+
+	.img-center {
+	    display : block;
+	    margin : auto;
+	}
+        </style>
+    </head>
+    <body>
+        <h2>Center Alignment</title>
+        <div class = "box-center">
+	Hello Mercury
+        </div>
+        <p></p>
+        <img class = "img-center" src = "Lion.jpg">
+    </body>
+</html>
