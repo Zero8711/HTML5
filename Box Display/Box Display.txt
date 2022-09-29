@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Advanced Display Example</title>
+        <style>
+	div, span {
+	    border : 2px solid lightgray;
+	    margin : 3px 0;
+	    padding : 5px;
+	}
+
+	.none {
+	    display : none;
+	}
+
+	.block1 {
+	    display : block;
+	}
+
+	.block2 {
+	    display : block;
+	    width : 250px;
+	    height : 50px;
+	}
+
+	.inline {
+	    display : inline;
+	    width : 200px;
+	    height : 50px;
+	}
+
+	.inline-block {
+	    display : inline-block;
+	    width : 200px;
+	    height : 50px;
+	}
+        </style>
+    </head>
+    <body>
+	<div>
+	<div class = "block1">Block Box1</div>
+	<div class = "block2">Block Box2</div>
+	<span class = "inline">Inline Box1</span>
+	<span class = "inline-block">Inline-Block Box1</span>
+	</div>
+	<div class = "none">
+	    <h2>Hello</h2>
+	</div>
+	<div>
+	    <h2>World</h2>
+	</div>
+    </body>
+</html>
